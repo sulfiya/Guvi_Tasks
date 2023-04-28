@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+#nav-bar {
+  position: relative;
+  top: 12cm;
+}
+
+#table-head {
+  color: Blue;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  ;
+}
+
+#t-body {
+  color: black;
+  text-align: center;
+}
