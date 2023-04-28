@@ -1,0 +1,16 @@
+#calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.btn-operator {
+  background-color: #fd7e14;
+  border-color: #fd7e14;
+  color: #fff;
+}
+.btn-operator:hover {
+  background-color: #f76707;
+  border-color: #f76707;
+  color: #fff;
+}
