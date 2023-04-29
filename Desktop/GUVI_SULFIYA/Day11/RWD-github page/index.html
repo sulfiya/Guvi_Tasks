@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Responsive Web</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+      }
+      
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        height: calc(100vh - 40px); /* subtract the top and bottom padding */
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        flex-basis: 100%;
+      }
+      
+      .card img {
+        height: 30px;
+        margin-right: 10px;
+      }
+      
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        flex-grow: 1;
+      }
+      
+      .black-card {
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        width: calc(33.33% - 20px); /* subtract the horizontal margins and padding */
+        height: calc(100vh - 100px - 3cm); /* subtract the top and bottom margins, the height of the title card, and 1cm from the top */
+        margin-top: 1cm;
+        margin-right: 20px;
+        border-radius: 10px;
+      }
+      
+      .search-bar {
+        background-color: #000;
+        padding: 10px;
+        width: 400px;
+        height: 20px;
+        position: relative;
+        top: 1cm;
+        left: calc(10% );
+        border-radius: 10px;
+      }
+      .new-card {
+        background-color:black;
+        padding: 10px;
+        width: calc(66.66% - 10px); /* subtract the horizontal margins and padding */
+        height: 150px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-top: -175px;
+  margin-left: calc(40%);
+      }
+      .sq1-card {
+        background-color:black;
+        padding: 10px;
+        width: calc(15%); /* subtract the horizontal margins and padding */
+        height: 125px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-top: -398px;
+  margin-left: calc(40%);
+      }
+      .sq2-card {
+        background-color:black;
+        padding: 10px;
+        width: calc(15%); /* subtract the horizontal margins and padding */
+        height: 125px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-top: -400px;
+  margin-left: calc(80%);
+      }
+      .sq3-card {
+        background-color:black;
+        padding: 10px;
+        width: calc(15%); /* subtract the horizontal margins and padding */
+        height: 125px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        display: flex;
+        align-items: left;
+        justify-content: left;
+        margin-top: -402px;
+  margin-left: calc(60%);
+      }
+      
+  
+      @media screen and (max-width: 768px) {
+        .container {
+          padding: 10px;
+        }
+        
+        .card {
+          flex-wrap: wrap;
+          text-align: center;
+        }
+        
+        .card img {
+          margin: 0 auto 10px auto;
+        }
+        
+        .title {
+          font-size: 20px;
+        }
+        
+        .black-card {
+          width: 100%;
+          margin: 20px 0;
+        }
+        
+        .search-bar {
+          width: 100%;
+          left: 0;
+          margin-top: 20px;
+        }
+        .new-card {
+          height: 50px;
+        }
+        .sq1-card {
+          height: 50px;
+        }
+        .sq2-card {
+          height: 50px;
+        }
+        .sq3-card {
+          height: 50px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU" alt="Github Icon">
+        <h1 class="title">GITHUB</h1>
+      </div>
+      <div class="black-card"></div>
+      <div class="search-bar-card">
+        <div class="search-bar">
+          <input type="text" placeholder="Search...">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="search-bar-card-content">
+          <!-- Existing content of the search bar card -->
+        </div>
+      </div>
+      
+      <div class="new-card"></div>
+      <div class="sq1-card"></div>
+      <div class="sq2-card"></div>
+      <div class="sq3-card"></div>
+      <!-- other content goes here -->
+    </div>
+    
+    <script>
+      // any JavaScript code can go here
+    </script>
+  </body>
+  
